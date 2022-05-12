@@ -4,7 +4,6 @@
         <p class="lead-1">Inclusão de uma nova movimentação</p>
         <hr class="my-2">
         
-        
             <div class="col-md-3">
               <label for="iData" class="form-label">Data</label>
               <input type="date" [(ngModel)]="dataHora" class="form-control" id="iData">
@@ -36,7 +35,7 @@
             </div>
             
             <div class="d-grid gap-2 d-md-flex ">
-                <button class="btn btn-outline-primary me-md-2"click="save()" type="button">Confirmar</button>
+              <button class="btn btn-outline-primary me-md-2 btn-sm" type="button" (click)="save()">Confirmar</button>
                 <a routerLink="/movimentacoes" class="btn btn-outline-secondary">Cancelar</a>
               </div>
          
