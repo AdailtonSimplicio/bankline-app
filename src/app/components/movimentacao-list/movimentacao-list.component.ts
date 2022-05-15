@@ -15,11 +15,14 @@ export class MovimentacaoListComponent implements OnInit {
   movimentacoes:any;
   correntistas:any;
   correntista:any={};
+
   constructor(
     private movimentacaoService: MovimentacaoService,
     private correntistaService: CorrentistaService,
     ) { }
+    
   ngOnInit(): void {
+    this.listMovimentacoes();
     this.exibirCorrentistas();
   }
   
