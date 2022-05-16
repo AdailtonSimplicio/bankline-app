@@ -15,7 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
    --> [Back-End Repository](https://github.com/AdailtonSimplicio/bankline-api) </br>
    --> [Heroku](https://bankline-dev-week.herokuapp.com/)
 ### Front_End
-    AngulaCLI | Bootstrap
+    AngularCLI | Bootstrap
   
 
 ![movimentacoes-new](https://user-images.githubusercontent.com/59025766/168495528-8fa2c741-cef6-49f3-9c38-5040dc5940dd.png)
